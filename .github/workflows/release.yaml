@@ -34,4 +34,4 @@ jobs:
             @semantic-release/git
             @semantic-release/changelog
           branches: |
-            ['master']
+            ['main']
