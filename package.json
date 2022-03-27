@@ -1,0 +1,84 @@
+{
+  "name": "@wfcd/eslint-config",
+  "version": "0.0.1",
+  "description": "Shared eslint configuration for Warframe Community Developers",
+  "scripts": {
+    "test": "exit 0",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "install": "npx npm-install-peers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfcd/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "TobiTenno <tobiah@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wfcd/eslint-config/issues"
+  },
+  "homepage": "https://github.com/wfcd/eslint-config#readme",
+  "exports": {
+    ".": "./index.js"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7",
+    "@babel/eslint-parser": "^7",
+    "@babel/plugin-proposal-class-properties": "^7",
+    "@babel/plugin-proposal-private-methods": "^7",
+    "@babel/preset-env": "^7",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-private-methods"
+    ]
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/changelog",
+        {
+          "assets": [
+            "CHANGELOG.md"
+          ]
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ]
+        }
+      ]
+    ],
+    "branches": "main"
+  }
+}
