@@ -30,5 +30,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
           semantic_version: 19
+          extra_plugins: |
+            @semantic-release/git
+            @semantic-release/changelog
           branches: |
             ['master']
