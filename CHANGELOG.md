@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/wfcd/eslint-config/compare/v1.0.1...v1.0.2) (2022-03-27)
+
+
+### Bug Fixes
+
+* thinner package ([329036d](https://github.com/wfcd/eslint-config/commit/329036d29cb8261bfed79bd2e06e890d1cf81508))
+
 ## [1.0.1](https://github.com/wfcd/eslint-config/compare/v1.0.0...v1.0.1) (2022-03-27)
 
 
