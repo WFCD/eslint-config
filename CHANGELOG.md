@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wfcd/eslint-config/compare/v1.0.2...v1.1.0) (2022-03-29)
+
+
+### Features
+
+* **style:** add prettier configs ([b8611e3](https://github.com/wfcd/eslint-config/commit/b8611e3b4f16636c90840bf103655712ad80b4ff))
+
 ## [1.0.2](https://github.com/wfcd/eslint-config/compare/v1.0.1...v1.0.2) (2022-03-27)
 
 
