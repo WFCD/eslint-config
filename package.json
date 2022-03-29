@@ -1,11 +1,12 @@
 {
   "name": "@wfcd/eslint-config",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "description": "Shared eslint configuration for Warframe Community Developers",
   "scripts": {
     "test": "exit 0",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "install": "npx npm-install-peers"
   },
   "repository": {
     "type": "git",
