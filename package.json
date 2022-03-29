@@ -34,7 +34,7 @@
     "@babel/plugin-proposal-class-properties": "^7",
     "@babel/plugin-proposal-private-methods": "^7",
     "@babel/preset-env": "^7",
-    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.22.0",
