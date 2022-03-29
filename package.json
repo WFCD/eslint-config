@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/wfcd/eslint-config#readme",
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",
+    "./esm": "./esm.js",
+    "./prettier": "./prettier.config.js"
   },
   "peerDependencies": {
     "@babel/core": "^7",

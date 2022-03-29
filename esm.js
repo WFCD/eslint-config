@@ -26,13 +26,6 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'no-await-in-loop': 'off',
     'func-names': 0,
-    'arrow-parens': [
-      2,
-      'as-needed',
-      {
-        requireForBlockBody: true,
-      },
-    ],
     'global-require': 0,
     'no-param-reassign': 'off',
     'no-continue': 'off',
@@ -55,14 +48,7 @@ module.exports = {
     ],
     'import/no-unresolved': 0,
     'no-null/no-null': 2,
-    quotes: [
-      2,
-      'single',
-      {
-        avoidEscape: true,
-        allowTemplateLiterals: true,
-      },
-    ],
+    'import/extensions': 0,
     'prettier/prettier': [
       'error',
       {},
@@ -75,8 +61,11 @@ module.exports = {
   plugins: ['no-null'],
   parser: '@babel/eslint-parser',
   parserOptions: {
-    sourceType: 'script',
+    sourceType: 'module',
     ecmaVersion: 6,
+    ecmaFeatures: {
+      modules: true,
+    },
     babelOptions: {
       plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-private-methods'],
     },
