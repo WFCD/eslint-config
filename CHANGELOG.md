@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wfcd/eslint-config/compare/v1.1.0...v1.1.1) (2022-03-30)
+
+
+### Bug Fixes
+
+* help install-peerdeps resolve dependencies ([26cdc32](https://github.com/wfcd/eslint-config/commit/26cdc32cbb201eda9e06c0b6ab05aed955d6d671))
+
 # [1.1.0](https://github.com/wfcd/eslint-config/compare/v1.0.2...v1.1.0) (2022-03-29)
 
 
