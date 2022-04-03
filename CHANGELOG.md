@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/wfcd/eslint-config/compare/v1.1.1...v1.1.2) (2022-04-03)
+
+
+### Bug Fixes
+
+* ignore regex template literals for line length ([2837b8d](https://github.com/wfcd/eslint-config/commit/2837b8d1d1f5170baa2484db8148e89742881bb8))
+
 ## [1.1.1](https://github.com/wfcd/eslint-config/compare/v1.1.0...v1.1.1) (2022-03-30)
 
 
