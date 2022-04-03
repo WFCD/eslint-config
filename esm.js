@@ -44,6 +44,7 @@ module.exports = {
         comments: 120,
         ignoreTemplateLiterals: true,
         ignoreStrings: true,
+        ignoreRegExpLiterals: true,
       },
     ],
     'import/no-unresolved': 0,
