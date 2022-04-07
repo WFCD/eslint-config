@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/wfcd/eslint-config/compare/v1.1.2...v1.1.3) (2022-04-07)
+
+
+### Bug Fixes
+
+* specify no-extraneous-deps config ([5c59b36](https://github.com/wfcd/eslint-config/commit/5c59b36988d9dbc385d17cefcb1a231b0848adea))
+
 ## [1.1.2](https://github.com/wfcd/eslint-config/compare/v1.1.1...v1.1.2) (2022-04-03)
 
 
