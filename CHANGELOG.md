@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/wfcd/eslint-config/compare/v1.1.4...v1.1.5) (2022-04-08)
+
+
+### Bug Fixes
+
+* specify arrow-parens for cjs & esm ([682e812](https://github.com/wfcd/eslint-config/commit/682e8126a59a89a4521adfa66df2e4a5bc822009))
+
 ## [1.1.4](https://github.com/wfcd/eslint-config/compare/v1.1.3...v1.1.4) (2022-04-08)
 
 
