@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/wfcd/eslint-config/compare/v1.1.3...v1.1.4) (2022-04-08)
+
+
+### Bug Fixes
+
+* consistent arrows between cjs & esm ([11a6e83](https://github.com/wfcd/eslint-config/commit/11a6e83634af08677af5798658f1d4835fe5c5ad))
+
 ## [1.1.3](https://github.com/wfcd/eslint-config/compare/v1.1.2...v1.1.3) (2022-04-07)
 
 
