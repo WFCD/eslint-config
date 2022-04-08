@@ -26,6 +26,7 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'no-await-in-loop': 'off',
     'func-names': 0,
+    'arrow-parens': ['error', 'always'],
     'global-require': 0,
     'no-param-reassign': 'off',
     'no-continue': 'off',
