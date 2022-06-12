@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/wfcd/eslint-config/compare/v1.1.5...v1.1.6) (2022-06-12)
+
+
+### Bug Fixes
+
+* allow devDeps in build files ([abacbb0](https://github.com/wfcd/eslint-config/commit/abacbb0da29990f875102a6188b530ce86170997))
+
 ## [1.1.5](https://github.com/wfcd/eslint-config/compare/v1.1.4...v1.1.5) (2022-04-08)
 
 
