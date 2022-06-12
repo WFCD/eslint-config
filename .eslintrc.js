@@ -49,7 +49,10 @@ module.exports = {
       },
     ],
     'import/no-unresolved': 0,
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.js', '**/*.spec.js'] }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['**/*.test.js', '**/*.spec.js', 'build/**.js'] },
+    ],
     'no-null/no-null': 2,
     quotes: [
       2,
