@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     'import/extensions': 0,
   },
-  extends: ['./eslintrc.js'],
+  extends: ['@wfcd'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     sourceType: 'module',

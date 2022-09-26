@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: [
-    './esm.js',
+    '@wfcd/eslint-config/esm',
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
