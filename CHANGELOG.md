@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wfcd/eslint-config/compare/v1.1.6...v1.2.0) (2022-09-26)
+
+
+### Features
+
+* typescript config ([#1](https://github.com/wfcd/eslint-config/issues/1)) ([c101669](https://github.com/wfcd/eslint-config/commit/c101669ab892b60762ee8e48b841cbd4430db78e))
+
 ## [1.1.6](https://github.com/wfcd/eslint-config/compare/v1.1.5...v1.1.6) (2022-06-12)
 
 
