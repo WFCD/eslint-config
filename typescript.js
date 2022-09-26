@@ -1,11 +1,15 @@
 'use strict';
 
 module.exports = {
+  extends: [
+    './esm.js',
+    'airbnb-typescript/base',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  ],
   rules: {
-    'import/extensions': 0,
+    'impot/no-unresolved': 'off',
   },
-  extends: ['./eslintrc.js'],
-  parser: '@babel/eslint-parser',
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 6,
