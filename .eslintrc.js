@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = {
-  globals: {},
   rules: {
     'valid-jsdoc': [
       'error',
