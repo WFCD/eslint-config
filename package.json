@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wfcd/eslint-config.git"
+    "url": "git+https://github.com/WFCD/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -20,9 +20,9 @@
   "author": "TobiTenno <tobiah@pm.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wfcd/eslint-config/issues"
+    "url": "https://github.com/WFCD/eslint-config/issues"
   },
-  "homepage": "https://github.com/wfcd/eslint-config#readme",
+  "homepage": "https://github.com/WFCD/eslint-config#readme",
   "exports": {
     ".": "./index.js",
     "./esm": "./esm.js",
