@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    'import/extensions': 0,
+    'import/extensions': ['error', 'always'],
   },
   extends: ['@wfcd'],
   parser: '@babel/eslint-parser',
@@ -13,7 +13,11 @@ module.exports = {
       modules: true,
     },
     babelOptions: {
-      plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-private-methods'],
+      plugins: [
+        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-proposal-private-methods',
+        '@babel/plugin-syntax-import-assertions',
+      ],
     },
   },
 };
