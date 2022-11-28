@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/WFCD/eslint-config/compare/v1.2.0...v1.3.0) (2022-11-28)
+
+
+### Features
+
+* babel import assertions plugin ([#2](https://github.com/WFCD/eslint-config/issues/2)) ([a450f8a](https://github.com/WFCD/eslint-config/commit/a450f8a1d0065fc7c29de3eb66b2d8b07a020565))
+
 # [1.2.0](https://github.com/wfcd/eslint-config/compare/v1.1.6...v1.2.0) (2022-09-26)
 
 
