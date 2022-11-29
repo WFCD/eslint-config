@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/WFCD/eslint-config/compare/v1.3.1...v1.3.2) (2022-11-29)
+
+
+### Bug Fixes
+
+* wildcard folders ([2a883bc](https://github.com/WFCD/eslint-config/commit/2a883bc466d2a6fa4997f17fab1b053f0d369eb8))
+
 ## [1.3.1](https://github.com/WFCD/eslint-config/compare/v1.3.0...v1.3.1) (2022-11-29)
 
 
