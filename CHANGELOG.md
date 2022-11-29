@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/WFCD/eslint-config/compare/v1.3.0...v1.3.1) (2022-11-29)
+
+
+### Bug Fixes
+
+* allow dev dependencies in c/mjs files ([5378b59](https://github.com/WFCD/eslint-config/commit/5378b59ffb1531b3a4eb4162db197ecd12e1a80a))
+
 # [1.3.0](https://github.com/WFCD/eslint-config/compare/v1.2.0...v1.3.0) (2022-11-28)
 
 
