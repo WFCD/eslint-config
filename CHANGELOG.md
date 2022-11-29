@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/WFCD/eslint-config/compare/v1.3.2...v1.3.3) (2022-11-29)
+
+
+### Bug Fixes
+
+* import/no-extraneous-dependencies globs ([#6](https://github.com/WFCD/eslint-config/issues/6)) ([4f50577](https://github.com/WFCD/eslint-config/commit/4f505778a5ea2f5e1181ed551ab51779dafd16b2))
+
 ## [1.3.2](https://github.com/WFCD/eslint-config/compare/v1.3.1...v1.3.2) (2022-11-29)
 
 
