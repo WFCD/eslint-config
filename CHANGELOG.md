@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/WFCD/eslint-config/compare/v1.4.0...v1.4.1) (2023-03-17)
+
+
+### Bug Fixes
+
+* broken configs ([9660374](https://github.com/WFCD/eslint-config/commit/9660374dcae6811b80e613934de98272774d731a))
+
 # [1.4.0](https://github.com/WFCD/eslint-config/compare/v1.3.3...v1.4.0) (2023-03-17)
 
 
