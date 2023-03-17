@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/WFCD/eslint-config/compare/v1.3.3...v1.4.0) (2023-03-17)
+
+
+### Features
+
+* nest configs, allow underscore dangle ([85d37ba](https://github.com/WFCD/eslint-config/commit/85d37ba2835d12ba56611946edf18fdea6655a2e))
+
 ## [1.3.3](https://github.com/WFCD/eslint-config/compare/v1.3.2...v1.3.3) (2022-11-29)
 
 

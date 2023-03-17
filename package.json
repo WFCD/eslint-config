@@ -1,6 +1,6 @@
 {
   "name": "@wfcd/eslint-config",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "Shared eslint configuration for Warframe Community Developers",
   "scripts": {
     "test": "npm run lint",
