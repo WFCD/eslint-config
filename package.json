@@ -25,7 +25,7 @@
   "homepage": "https://github.com/WFCD/eslint-config#readme",
   "exports": {
     ".": "./configs/.eslintrc.js",
-    "./esm": "./configs/.eslintrc.mjs",
+    "./esm": "./configs/esm.js",
     "./prettier": "./configs/prettier.config.js",
     "./typescript": "./configs/typescript.js"
   },
