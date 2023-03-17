@@ -4,8 +4,8 @@
   "description": "Shared eslint configuration for Warframe Community Developers",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint -c ./configs/.eslintrc.js .",
+    "lint:fix": "eslint -c ./configs/.eslintrc.js . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/WFCD/eslint-config#readme",
   "exports": {
-    ".": "./index.js",
-    "./esm": "./esm.js",
-    "./prettier": "./prettier.config.js",
-    "./typescript": "./typescript.js"
+    ".": "./configs/.eslintrc.js",
+    "./esm": "./configs/.eslintrc.mjs",
+    "./prettier": "./configs/prettier.config.js",
+    "./typescript": "./configs/typescript.js"
   },
   "peerDependencies": {
     "@babel/core": "^7.19.1",
@@ -84,5 +84,6 @@
       ]
     ],
     "branches": "main"
-  }
+  },
+  "prettier": "./configs/prettier.config.js"
 }

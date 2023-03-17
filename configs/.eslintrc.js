@@ -68,6 +68,12 @@ module.exports = {
         usePrettierrc: true,
       },
     ],
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['__basedir', '__dirname'],
+      },
+    ],
   },
   extends: ['airbnb-base', 'plugin:prettier/recommended'],
   plugins: ['no-null'],
