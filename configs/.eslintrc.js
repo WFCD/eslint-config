@@ -23,15 +23,21 @@ module.exports = {
     ],
     strict: ['error', 'safe'],
     'linebreak-style': ['error', 'unix'],
-    'no-await-in-loop': 'off',
     'func-names': 0,
     'arrow-parens': ['error', 'always'],
     'global-require': 0,
+    'no-await-in-loop': 'off',
     'no-param-reassign': 'off',
     'no-continue': 'off',
-    'lines-between-class-members': 'off',
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['__basedir', '__dirname'],
+      },
+    ],
     'no-fallthrough': 'off',
     'no-case-declarations': 'off',
+    'lines-between-class-members': 'off',
     'default-case': 'off',
     'max-classes-per-file': 'off',
     'consistent-return': 'off',
@@ -52,6 +58,13 @@ module.exports = {
       'error',
       { devDependencies: ['**/*.test.{js,cjs,mjs}', '**/*.spec.{js,cjs,mjs}', 'build/**/*.{js,cjs,mjs}'] },
     ],
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always',
+      },
+    ],
     'no-null/no-null': 2,
     quotes: [
       2,
@@ -66,12 +79,6 @@ module.exports = {
       {},
       {
         usePrettierrc: true,
-      },
-    ],
-    'no-underscore-dangle': [
-      'error',
-      {
-        allow: ['__basedir', '__dirname'],
       },
     ],
   },
