@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/WFCD/eslint-config/compare/v1.4.1...v1.5.0) (2024-02-08)
+
+
+### Features
+
+* strict jsdoc config available ([#7](https://github.com/WFCD/eslint-config/issues/7)) ([8a6ed14](https://github.com/WFCD/eslint-config/commit/8a6ed149368d38172068ca5ccd6287204119a564))
+
 ## [1.4.1](https://github.com/WFCD/eslint-config/compare/v1.4.0...v1.4.1) (2023-03-17)
 
 
