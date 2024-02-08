@@ -28,7 +28,8 @@
     "./esm": "./configs/esm.js",
     "./prettier": "./configs/prettier.config.js",
     "./typescript": "./configs/typescript.js",
-    "./strict-jsdoc": "./configs/strict-jsdoc.js"
+    "./strict-jsdoc": "./configs/strict-jsdoc.js",
+    "./strict-esm-jsdoc": "./configs/strict-esm-jsdoc.js"
   },
   "peerDependencies": {
     "@babel/core": "^7.19.1",
