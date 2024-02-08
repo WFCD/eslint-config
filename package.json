@@ -27,7 +27,9 @@
     ".": "./configs/.eslintrc.js",
     "./esm": "./configs/esm.js",
     "./prettier": "./configs/prettier.config.js",
-    "./typescript": "./configs/typescript.js"
+    "./typescript": "./configs/typescript.js",
+    "./strict-jsdoc": "./configs/strict-jsdoc.js",
+    "./strict-esm-jsdoc": "./configs/strict-esm-jsdoc.js"
   },
   "peerDependencies": {
     "@babel/core": "^7.19.1",
@@ -43,6 +45,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^48.0.6",
     "eslint-plugin-no-null": "^1.0.2",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
