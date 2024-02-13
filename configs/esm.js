@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    'import/extensions': ['error', 'always'],
+    'import/extensions': ['error', 'ignorePackages'],
   },
   extends: ['@wfcd'],
   parser: '@babel/eslint-parser',
