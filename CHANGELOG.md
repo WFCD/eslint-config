@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/WFCD/eslint-config/compare/v1.5.0...v1.5.1) (2024-02-13)
+
+
+### Bug Fixes
+
+* ignore extensions for packages ([b4d0149](https://github.com/WFCD/eslint-config/commit/b4d014961be7cef5db25089779ab4d0acf75539a))
+
 # [1.5.0](https://github.com/WFCD/eslint-config/compare/v1.4.1...v1.5.0) (2024-02-08)
 
 
