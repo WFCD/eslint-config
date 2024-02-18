@@ -10,8 +10,8 @@ module.exports = {
     ecmaVersion: 6,
     babelOptions: {
       plugins: [
-        '@babel/plugin-proposal-class-properties',
-        '@babel/plugin-proposal-private-methods',
+        '@babel/plugin-transform-class-properties',
+        '@babel/plugin-transform-private-methods',
         '@babel/plugin-syntax-import-assertions',
       ],
     },

@@ -17,7 +17,7 @@ module.exports = {
       modules: true,
     },
     babelOptions: {
-      plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-private-methods'],
+      plugins: ['@babel/plugin-transform-class-properties', '@babel/plugin-transform-private-methods'],
     },
   },
 };

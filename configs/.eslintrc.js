@@ -65,6 +65,15 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'import/extensions': [
+      'error',
+      'never',
+      {
+        json: 'always',
+        cjs: 'always',
+        mjs: 'always',
+      },
+    ],
     'no-null/no-null': 2,
     quotes: [
       2,
@@ -89,7 +98,7 @@ module.exports = {
     sourceType: 'script',
     ecmaVersion: 6,
     babelOptions: {
-      plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-private-methods'],
+      plugins: ['@babel/plugin-transform-class-properties', '@babel/plugin-transform-private-methods'],
     },
   },
 };

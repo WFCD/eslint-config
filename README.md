@@ -22,8 +22,8 @@ you must still include babel config in your eslint config
   "parserOptions": {
     "babelOptions": {
       "plugins": [
-        "@babel/plugin-proposal-class-properties",
-        "@babel/plugin-proposal-private-methods"
+        "@babel/plugin-transform-class-properties",
+        "@babel/plugin-transform-private-methods"
       ]
     }
   }
@@ -38,8 +38,8 @@ as well as the accompanying babel config
     "@babel/preset-env"
   ],
   "plugins": [
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-proposal-private-methods"
+    "@babel/plugin-transform-class-properties",
+    "@babel/plugin-transform-private-methods"
   ]
 }
 ```
