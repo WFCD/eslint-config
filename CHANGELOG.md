@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/WFCD/eslint-config/compare/v1.6.0...v1.6.1) (2024-02-18)
+
+
+### Bug Fixes
+
+* downgrade typescript-eslint for compat ([5a38207](https://github.com/WFCD/eslint-config/commit/5a3820752c3839c690a1524404b5b692418ccce3))
+
 # [1.6.0](https://github.com/WFCD/eslint-config/compare/v1.5.1...v1.6.0) (2024-02-18)
 
 
