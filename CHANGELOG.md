@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/WFCD/eslint-config/compare/v1.5.1...v1.6.0) (2024-02-18)
+
+
+### Features
+
+* cjs/mjs extensions ([6e637c0](https://github.com/WFCD/eslint-config/commit/6e637c0c28694d24263ddeee18206a7e5c7f727d))
+
 ## [1.5.1](https://github.com/WFCD/eslint-config/compare/v1.5.0...v1.5.1) (2024-02-13)
 
 
