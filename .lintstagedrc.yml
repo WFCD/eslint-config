@@ -1,0 +1,9 @@
+'*.{js,ts,mjs,cjs}':
+  - 'eslint -c ./configs/.eslintrc.js  --cache --fix'
+  - 'prettier --write'
+'*,!*.{js,ts,mjs,cjs},!package*.json':
+  - 'prettier --write'
+'package*.json':
+  - 'prettier --write --parser json'
+  - 'npx sort-package-json'
+  - 'npm dedupe'
