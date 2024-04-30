@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/WFCD/eslint-config/compare/v1.6.1...v1.6.2) (2024-04-30)
+
+
+### Bug Fixes
+
+* update linter deps ([d59cbe6](https://github.com/WFCD/eslint-config/commit/d59cbe67e353a6cef94d96fbee9e675bad519026))
+
 ## [1.6.1](https://github.com/WFCD/eslint-config/compare/v1.6.0...v1.6.1) (2024-02-18)
 
 
