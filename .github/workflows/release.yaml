@@ -20,7 +20,9 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - name: Install Dependencies
-        run: npx npm-install-peers
+        run: |
+          npm install
+          npx npm-install-peers
       - name: Run linters
         run: npm run lint
       - name: Semantic Release
