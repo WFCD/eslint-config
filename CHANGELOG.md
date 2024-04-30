@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/WFCD/eslint-config/compare/v1.6.2...v1.6.3) (2024-04-30)
+
+
+### Bug Fixes
+
+* install devDeps before release ([0b1fb3f](https://github.com/WFCD/eslint-config/commit/0b1fb3f49193ab97c9abba5b19fc7a0c507fe742))
+
 ## [1.6.2](https://github.com/WFCD/eslint-config/compare/v1.6.1...v1.6.2) (2024-04-30)
 
 

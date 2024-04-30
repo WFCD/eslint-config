@@ -1,6 +1,6 @@
 {
   "name": "@wfcd/eslint-config",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "Shared eslint configuration for Warframe Community Developers",
   "keywords": [
     "eslint",
