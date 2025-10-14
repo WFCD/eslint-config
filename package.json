@@ -12,10 +12,7 @@
   "bugs": {
     "url": "https://github.com/WFCD/eslint-config/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WFCD/eslint-config.git"
-  },
+  "repository": "https://github.com/WFCD/eslint-config",
   "license": "MIT",
   "author": "TobiTenno <tobiah@pm.me>",
   "exports": {
@@ -72,5 +69,6 @@
   },
   "eslint": {
     "extends": "./configs/.eslintrc.js"
-  }
+  },
+  "publishConfig": { "provenance": true }
 }
