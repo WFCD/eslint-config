@@ -6,9 +6,8 @@ updates:
       interval: "daily"
       time: "15:00"
     commit-message:
-      prefix: "chore"
-      prefix-development: "dev"
-      include: "scope"
+      prefix: "fix"
+      prefix-development: "ci"
     labels:
       - "dependencies"
     open-pull-requests-limit: 10
@@ -21,7 +20,6 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "ci"
-      include: "scope"
     labels:
       - "dependencies"
     open-pull-requests-limit: 10
