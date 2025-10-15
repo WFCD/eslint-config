@@ -1,3 +1,11 @@
+## [1.6.4](https://github.com/WFCD/eslint-config/compare/v1.6.3...v1.6.4) (2025-10-15)
+
+
+### Bug Fixes
+
+* footer length ([86745fb](https://github.com/WFCD/eslint-config/commit/86745fb654f459e8f90da4638b91e413e837e42f))
+* provenance & oidc ([#28](https://github.com/WFCD/eslint-config/issues/28)) ([1cd20c7](https://github.com/WFCD/eslint-config/commit/1cd20c75a748e9c51d3bebdb7968adf372d0458c))
+
 ## [1.6.3](https://github.com/WFCD/eslint-config/compare/v1.6.2...v1.6.3) (2024-04-30)
 
 

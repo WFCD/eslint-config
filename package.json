@@ -1,6 +1,6 @@
 {
   "name": "@wfcd/eslint-config",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Shared eslint configuration for Warframe Community Developers",
   "keywords": [
     "eslint",
@@ -67,8 +67,10 @@
   "engines": {
     "npm": ">=7"
   },
+  "publishConfig": {
+    "provenance": true
+  },
   "eslint": {
     "extends": "./configs/.eslintrc.js"
-  },
-  "publishConfig": { "provenance": true }
+  }
 }
